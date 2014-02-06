@@ -1,7 +1,13 @@
 
 body {
+	color: purple;
 	text-align: center;
-	background-image:url('darkblue.png');
+	background-image:url('Rainbow-Waves.png');
+	background-repeat:no-repeat;
+	margin-top:50px;
+	margin-bottom:100px;
+	margin-right:50px;
+	margin-left:50px; 
 }
 
 p {

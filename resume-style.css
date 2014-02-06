@@ -1,24 +1,49 @@
 
 body {
-	color: orange;
-	text-align: center;
-	background-image:url('darkblue.png');
+	font-family: "Book Antiqua";
+	color: white;
+	text-align: left;
+	background-image:url('blue_gradient.jpg');
+	background-size: cover;
+	margin-top:50px;
+	margin-bottom:100px;
+	margin-right:50px;
+	margin-left:50px;
 }
 
 p {
-
+	color: white;
+	font-family: "Book Antiqua";
+	font-size: 16px;
 }
 
 h1 {
-
+	color: yellow;
+	font-family: "Palatino Linotype";
 }
 
 h2 {
-
+	color: yellow;
+	font-family: "Palatino Linotype";
 
 }
 
 h3 {
 
+	font-family: "Book Antiqua";
+}
+
+i { 
+	font-style: italic 
+}
+
+.line-separator {
+
+height:1px;
+
+background:#717171;
+
+border-bottom:1px solid #313030;
 
 }
+

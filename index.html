@@ -2,19 +2,16 @@
 
 <html>
 
-<head>
-	<meta charset="utf-8"> 
-	<link rel="stylesheet" type="text/css" href="web-style.css">
-	<title> Gardy Kevin Ligonde </title>
-</head>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<title> Google Maps </title>
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+		<script type="text/javascript" src="mapping.js"></script>
+	</head>
 
-<body>
-
-<div class="box"> Welcome! My name's Kevin, and this is my first website. Please explore! </div>
-<img src="hueyfreeman.png" alt="Huey Freeman" width="250" height="250"> <br/>
-<a href="resume.html"> Resume </a> <br/>
-<a href="bio.html"> Biography </a> 
-
-</body>
-
+	<body onload="initialize()">
+		<div id="map-canvas"></div>
+	</body>
 </html>
+
+

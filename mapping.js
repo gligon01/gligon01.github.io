@@ -22,7 +22,7 @@ function getMyLocation() {
         navigator.geolocation.getCurrentPosition(function(position) {
             myLat = position.coords.latitude;
             myLng = position.coords.longitude;
-            renderMap();
+           // renderMap();
           // elem.innerHTML = "<h1>You are in " + lat + ", " + lng + "</h1>";
         });
         // elem.innerHTML = "Getting your location...";
@@ -38,7 +38,7 @@ function initialize() {
 }
      // from google website -> google.maps.event.addDomListener(window, 'load', initialize);
 //        STARTS HERE
-
+/*
 function renderMap() {
   me = new google.maps.LatLng(myLat, myLng);
 
@@ -68,7 +68,7 @@ function renderMap() {
   service = new google.maps.places.PlacesService(map);
   service.search(request, callback);
 }
-*/
+
 }
 
       // Taken from http://code.google.com/apis/maps/documentation/javascript/places.html
